@@ -1,0 +1,58 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+<title>hello form</title>
+<link rel ="stylesheet" href ="Style.css">
+</head>
+
+<body>
+<h1>registration form</h1>
+<form>
+<div>
+<label for = "fullname"> Fullname: </label>
+<input type = "text" name = "fullname"id="fullname"required>
+</div><br>
+<div>
+<label for = "password"> password: </label>
+<input type = "password" name = "password"id="password">
+</div><br>
+<div>
+<label for = "dob"> Date of Birth: </label>
+<input type = "Date" name = "dob"id="dob">
+</div><br>
+<div>
+<label for = "image"> Choose your photo: </label>
+<input type = "file" name = "photo"id="photo">
+</div><br>
+<div>
+<label for = "gender"> Gender: </label>
+<input type = "Radio" id = "gender"value="Male">Male
+<input type = "Radio" id = "gender"value="Female">Female
+
+</div><br>
+<div>
+<label for = "religion"> Religion: </label>
+<input type = "checkbox" name = "r1"id="r1"value="islam">islam
+<input type = "checkbox" name = "r3"id="r3"value="hindu"checked>Hindhu
+
+</div><br>
+<div>
+<label for = "department"> Department: </label>
+<select name = "department">
+<option value = "CSE">CSE</option>
+<option value = "EEE"selected>EEE</option>
+</select>
+<div>
+<label for = "address"> Write your address: </label>
+<textarea col ="5"rows="15"></textarea>
+</div><br>
+<div>
+<input type = "submit" value = "Register">
+<input type = "reset" value = "clean"disabled>
+</div><br>
+</form>
+<script src = "Script.js"></script>
+</body>
+</HTML>
+
+
